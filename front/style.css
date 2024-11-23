@@ -1,0 +1,110 @@
+/* Styles généraux */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #3b2d1f;
+    color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+}
+
+h1, h2, p {
+    margin: 0;
+    padding: 10px;
+}
+
+/* Header */
+.header {
+    background-color: #2d2418;
+    color: #f4d03f;
+    text-align: center;
+    padding: 20px 0;
+    border-bottom: 2px solid #5c4931;
+}
+
+.header h1 {
+    font-size: 2rem;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.navbar {
+    background-color: #5c4931;
+    text-align: center;
+    padding: 10px 0;
+}
+
+.navbar .menu {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+}
+
+.navbar .menu li {
+    margin: 0 15px;
+    position: relative;
+}
+
+.navbar .menu li a {
+    text-decoration: none;
+    color: #f4f4f4;
+    padding: 10px 15px;
+    font-weight: bold;
+}
+
+.navbar .menu li a:hover,
+.navbar .menu .dropdown:hover .dropbtn {
+    background-color: #402f20;
+    border-radius: 5px;
+}
+
+/* Menu déroulant */
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #5c4931;
+    min-width: 150px;
+    z-index: 1;
+}
+
+.dropdown-content a {
+    color: #f4f4f4;
+    text-decoration: none;
+    display: block;
+    padding: 10px;
+}
+
+.dropdown-content a:hover {
+    background-color: #402f20;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+/* Main Content */
+main {
+    padding: 20px;
+    text-align: center;
+}
+
+main h2 {
+    font-size: 1.5rem;
+    color: #f4d03f;
+}
+
+/* Footer */
+.footer {
+    background-color: #2d2418;
+    color: #f4d03f;
+    text-align: center;
+    padding: 20px 0;
+    margin-top: 20px;
+    border-top: 2px solid #5c4931;
+}
+
+.footer p {
+    margin: 5px 0;
+    font-size: 0.9rem;
+}
